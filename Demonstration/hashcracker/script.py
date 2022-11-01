@@ -12,4 +12,3 @@ def hashCracker(hash):
 wordlist = "wordlist.txt"
 hash = input("Enter hash: ") 
 hashCracker(hash)
-#tarisux
