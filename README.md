@@ -9,7 +9,7 @@ Contents:
 
 [Python 3.10+](https://www.python.org/downloads/release/python-3102/)
 
-Instructions for Manual Setup
+## Instructions for Manual Setup
 1. Open a terminal and run `git clone https://github.com/deceptivecz/ACG` and CD into /ACG
 2. `python -m venv .venv` to setup virtual environment
 On Windows(command prompt):
