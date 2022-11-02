@@ -12,22 +12,16 @@ Contents:
 # Instructions for Manual Setup
 1. Open a Command Prompt / Terminal and CD into the directory of each script
 2. Run `python -m venv .venv`
-3. 
 ## On Windows(Command Prompt): 
 Run `.venv/Scripts/activate.bat`
-
 ## On Windows(Powershell):
 Run `./.venv/Scripts/Activate.ps`
-
-`python -m pip install -r requirements.txt`
-
 ## On Linux:
 Run `source .venv/bin/activate`
 
-
-
 ### Requirements
 > Install requirements.txt (not setup yet)
+> `python -m pip install -r requirements.txt`
 ```
 pip install passlib
 pip install hashlib
