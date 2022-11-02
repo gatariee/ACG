@@ -18,7 +18,6 @@ On Windows(powershell):
 4. `./venv/Scripts/Activate.ps1`
 On Linux:
 5. `source .venv/bin/activate`
-```
 
 ### Requirements
 > Install requirements.txt (not setup yet)
