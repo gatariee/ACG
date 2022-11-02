@@ -8,7 +8,7 @@
 3. [Demonstration on Dictionary Attack for Cracking /etc/shadow hashes](https://github.com/deceptivecz/ACG/tree/main/Demonstration/linux%20administration)
 
 
-# Instructions for Manual Setup
+### Instructions for Manual Setup
 [Python 3.10+](https://www.python.org/downloads/release/python-3102/)
 1. `git clone https://github.com/deceptivecz/ACG/` and CD into /ACG
 2. Run `python -m venv .venv`
