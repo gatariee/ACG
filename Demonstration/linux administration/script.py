@@ -1,5 +1,4 @@
 from passlib.hash import sha256_crypt
-import re
 import argparse
 parser = parser = argparse.ArgumentParser(description="script")
 parser.add_argument('-v', '--verbose', action='store_true')
