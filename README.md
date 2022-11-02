@@ -7,6 +7,8 @@ Contents:
 2. [Demonstration on Dictionary Attack for Hash Cracking](https://github.com/deceptivecz/ACG/tree/main/Demonstration/hashcracker)
 3. [Demonstration on Dictionary Attack for Cracking /etc/shadow hashes](https://github.com/deceptivecz/ACG/tree/main/Demonstration/linux%20administration)
 
+[Python 3.10+](https://www.python.org/downloads/release/python-3102/)
+
 Installation:
 ```
 git clone https://github.com/deceptivecz/ACG
