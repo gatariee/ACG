@@ -14,6 +14,7 @@ Contents:
 2. Run `python -m venv .venv`
 ## On Windows: 
 Run `.venv/Scripts/activate.bat`
+\n
 ## On Linux:
 Run `source .venv/bin/activate`
 3. In the virutal environment, run `python -m pip install -r requirements.txt`
