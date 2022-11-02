@@ -10,14 +10,14 @@ Contents:
 [Python 3.10+](https://www.python.org/downloads/release/python-3102/)
 
 ## Instructions for Manual Setup
-1. Open a terminal and run `git clone https://github.com/deceptivecz/ACG` and CD into /ACG
-2. `python -m venv .venv` to setup virtual environment
-On Windows(command prompt):
-3. `./venv/Scripts/activate.bat`
-On Windows(powershell):
-4. `./venv/Scripts/Activate.ps1`
+1. Open a Command Prompt / Terminal and CD into the directory of each script
+2. Run `python -m venv .venv`
+On Windows:
+3. Run `.venv/Scripts/activate.bat`
 On Linux:
-5. `source .venv/bin/activate`
+3. Run `source .venv/bin/activate`
+4. In the virutal environment, run `python -m pip install -r requirements.txt`
+5. Start the script with `python <SCRIPTNAME>`
 
 ### Requirements
 > Install requirements.txt (not setup yet)
