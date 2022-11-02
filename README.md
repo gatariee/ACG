@@ -9,15 +9,14 @@ Contents:
 
 [Python 3.10+](https://www.python.org/downloads/release/python-3102/)
 
-## Instructions for Manual Setup
+# Instructions for Manual Setup
 1. Open a Command Prompt / Terminal and CD into the directory of each script
 2. Run `python -m venv .venv`
-On Windows:
-3. Run `.venv/Scripts/activate.bat`
-On Linux:
-3. Run `source .venv/bin/activate`
-4. In the virutal environment, run `python -m pip install -r requirements.txt`
-5. Start the script with `python <SCRIPTNAME>`
+## On Windows: 
+Run `.venv/Scripts/activate.bat`
+## On Linux:
+Run `source .venv/bin/activate`
+3. In the virutal environment, run `python -m pip install -r requirements.txt`
 
 ### Requirements
 > Install requirements.txt (not setup yet)
