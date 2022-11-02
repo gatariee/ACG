@@ -17,7 +17,6 @@ python -m venv .venv
 
 ### Requirements
 > Install requirements.txt (not setup yet)
-> *Note, install in virtual environment to prevent version overlap
 ```
 pip install passlib
 pip install hashlib
