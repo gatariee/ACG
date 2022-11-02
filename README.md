@@ -12,12 +12,19 @@ Contents:
 # Instructions for Manual Setup
 1. Open a Command Prompt / Terminal and CD into the directory of each script
 2. Run `python -m venv .venv`
-## On Windows: 
+3. 
+## On Windows(Command Prompt): 
 Run `.venv/Scripts/activate.bat`
-\n
+
+## On Windows(Powershell):
+Run `./.venv/Scripts/Activate.ps`
+
+`python -m pip install -r requirements.txt`
+
 ## On Linux:
 Run `source .venv/bin/activate`
-3. In the virutal environment, run `python -m pip install -r requirements.txt`
+
+
 
 ### Requirements
 > Install requirements.txt (not setup yet)
