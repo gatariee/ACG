@@ -20,7 +20,7 @@ Run `./.venv/Scripts/Activate.ps`
 Run `source .venv/bin/activate`
 
 ### Requirements
-> Install requirements.txt (not setup yet)
+> Install requirements.txt (not setup yet)\
 > `python -m pip install -r requirements.txt`
 ```
 pip install passlib
