@@ -10,7 +10,7 @@ Contents:
 [Python 3.10+](https://www.python.org/downloads/release/python-3102/)
 
 # Instructions for Manual Setup
-1. Open a Command Prompt / Terminal and CD into the directory of each script
+1. `git clone https://github.com/deceptivecz/ACG/` and CD into /ACG
 2. Run `python -m venv .venv`
 ## On Windows(Command Prompt): 
 Run `.venv/Scripts/activate.bat`
