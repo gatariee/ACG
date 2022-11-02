@@ -15,7 +15,7 @@ Contents:
 ## On Windows(Command Prompt): 
 Run `.venv/Scripts/activate.bat`
 ## On Windows(Powershell):
-Run `./.venv/Scripts/Activate.ps`
+Run `./.venv/Scripts/Activate.ps1`
 ## On Linux:
 Run `source .venv/bin/activate`
 
