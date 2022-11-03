@@ -1,4 +1,5 @@
 import hashlib
+import argparse
 def hashCracker(hash):
     with open(wordlist, 'rb') as file:
         for line in file:
@@ -10,5 +11,6 @@ def hashCracker(hash):
         print("Not found. ")
 
 wordlist = "wordlist.txt"
-hash = input("Enter hash: ") 
+
+hash = input("Enter hash: ")
 hashCracker(hash)

@@ -1,12 +1,13 @@
 from passlib.hash import sha256_crypt
 import argparse
-parser = parser = argparse.ArgumentParser(description="script")
+parser = argparse.ArgumentParser(description="script")
 parser.add_argument('-v', '--verbose', action='store_true')
 s = input("Enter shadow line: ")
 s_split = s.split(":")[1].split("$")[1:]
 wordlist = 'wordlist.txt'
 def shadowCrack(hash):
     with open(wordlist, 'rb') as file:
+        print(f'Salt: {s_split[1]}')
         for line in file:
             for word in line.split():
                 a = sha256_crypt.hash(word, rounds = 5000, salt = s_split[1]) # Hashing every word in wordlist
