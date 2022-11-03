@@ -23,6 +23,9 @@ Run `source .venv/bin/activate`
 ### Requirements
 > Install requirements.txt
 > `python -m pip install -r requirements.txt`
-> `npm install fs`
-> `npm install readline-sync`
-> `npm instal sha256`
+
+```
+npm install fs
+npm install readline-sync
+npm install sha256
+```
