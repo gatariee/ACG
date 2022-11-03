@@ -21,7 +21,7 @@ Run `./.venv/Scripts/Activate.ps1`
 Run `source .venv/bin/activate`
 
 ### Requirements
-> Install requirements.txt
+> Install requirements.txt\
 > `python -m pip install -r requirements.txt`
 
 ```
