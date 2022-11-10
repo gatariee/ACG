@@ -8,8 +8,8 @@ def hashCracker(hash):
                     print(f'Hash found! The unhashed string is: {word.decode()}')
                     return
         print("Not found. ")
-wordlist = "wordlist.txt"
-hashes = "hashes.txt"
+wordlist = "../lists/wordlist.txt"
+hashes = "../lists/hashes.txt"
 def chooseWord():
     with open(hashes, 'rb') as file:
         for line in file:

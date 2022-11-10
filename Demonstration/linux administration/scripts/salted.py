@@ -1,6 +1,6 @@
 from passlib.hash import sha256_crypt
 from timeit import default_timer as t
-wordlist = "wordlist.txt"
+wordlist = "../lists/wordlist.txt"
 def shadowCrack(hash):
     with open(wordlist, "rb") as file:
         for line in file:
@@ -12,7 +12,7 @@ def shadowCrack(hash):
         print("Not found. ")
     
 def chooseWord():
-    with open("shadow.txt", "r") as file:
+    with open("../lists/shadow.txt", "r") as file:
         for line in file:
             global name
             global s_split

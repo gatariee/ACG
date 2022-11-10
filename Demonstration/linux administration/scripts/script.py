@@ -4,7 +4,7 @@ parser = argparse.ArgumentParser(description="script")
 parser.add_argument("-v", "--verbose", action="store_true")
 s = input("Enter shadow line: ")
 s_split = s.split(":")[1].split("$")[1:]
-wordlist = "wordlist.txt"
+wordlist = "../lists/wordlist.txt"
 def shadowCrack(hash):
     with open(wordlist, "rb") as file:
         for line in file:
